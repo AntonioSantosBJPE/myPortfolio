@@ -1,0 +1,146 @@
+.animated-border {
+  position: relative;
+}
+
+.animated-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+  animation: animate 10s infinite ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: var(--color-grey-2);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: var(--color-grey-2);
+    border-right-color: var(--color-grey-2);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: var(--color-grey-2);
+    border-right-color: var(--color-grey-2);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+.animated-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+  animation: animates 10s infinite ease-in-out;
+}
+
+@keyframes animates {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: var(--color-grey-2);
+  }
+
+  50% {
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: var(--color-grey-2);
+    border-left-color: var(--color-grey-2);
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: var(--color-grey-2);
+    border-left-color: var(--color-grey-2);
+  }
+}
+
+.animated-border-topRight {
+  position: relative;
+}
+
+.animated-border-topRight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background: transparent;
+  border: 2px solid transparent;
+  animation: animateBorderTopRight 5s infinite ease-in-out;
+}
+
+@keyframes animateBorderTopRight {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: var(--color-grey-2);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  25% {
+    width: 100%;
+    height: 0;
+    border-top-color: var(--color-grey-2);
+    border-right-color: var(--color-grey-2);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+
+  50% {
+    width: 100%;
+    height: 50%;
+    border-top-color: var(--color-grey-2);
+    border-right-color: var(--color-grey-2);
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  75% {
+    width: 100%;
+    height: 0;
+    border-top-color: var(--color-grey-2);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: var(--color-grey-2);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}

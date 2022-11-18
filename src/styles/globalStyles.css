@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.light-mode:root {
+  --color-grey-1: #ffffff;
+  --color-grey-2: #0a0119;
+}
+
+:root {
+  --color-grey-1: #0a0119;
+  --color-grey-2: #ffffff;
+
+  --color-grey-3: #ffffff;
+  --color-grey-4: #0a0119;
+
+  --color-opacity-1: rgba(10, 1, 25, 0.6);
+
+  --radius-default: 20px;
+  --radius-secondary: 8px;
+
+  --font-title-1: 24px;
+  --font-title-2: 22px;
+  --font-title-3: 20px;
+
+  --font-menu: 24px;
+  --font-text-1: 16px;
+
+  --font-btn-1: 18px;
+  --font-btn-2: 16px;
+  --font-btn-3: 14px;
+
+  --font-weight-700: 700;
+  --font-weight-600: 600;
+  --font-weight-500: 500;
+  --font-weight-400: 400;
+  --font-weight-300: 300;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--color-grey-1);
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-title-1: 32px;
+    --font-title-2: 28px;
+    --font-title-3: 24px;
+
+    --font-menu: 22px;
+    --font-text-1: 16px;
+
+    --font-btn-1: 20px;
+    --font-btn-2: 20px;
+    --font-btn-3: 18px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --font-title-1: 36px;
+    --font-title-2: 32px;
+    --font-title-3: 28px;
+
+    --font-title-4: 22px;
+    --font-title-5: 18px;
+
+    --font-menu: 22px;
+    --font-text-1: 18px;
+
+    --font-btn-1: 20px;
+    --font-btn-2: 20px;
+    --font-btn-3: 18px;
+  }
+}
