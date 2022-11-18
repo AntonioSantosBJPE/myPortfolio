@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light-mode">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css" />
+    <link rel="stylesheet" href="../../styles/flex.css" />
+    <link rel="stylesheet" href="../../styles/header.css" />
+    <link rel="stylesheet" href="../../styles/sectionAbout.css" />
+    <link rel="stylesheet" href="../../styles/sectionProjects.css" />
+    <link rel="stylesheet" href="../../styles/sectionResum.css" />
+    <link rel="stylesheet" href="../../styles/sectionContact.css" />
+    <link rel="stylesheet" href="../../styles/modal.css" />
+    <link rel="stylesheet" href="../../styles/animations.css" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Portfólio Antonio Santos</title>
+  </head>
+  <body>
+    <header class="flex flex-col items-center container">
+      <nav class="menu">
+        <div class="nav-box flex justify-between items-center">
+          <h2 class="logo-title"></h2>
+          <img
+            src="../../assets/drop-down-menu-black.png"
+            alt=""
+            class="img-button-dropdown-menu"
+          />
+        </div>
+
+        <ul class="list-links-menu flex-col items-center justify-between">
+          <li><a class="link-menu" href="#section-about">Sobre Mim</a></li>
+          <li><a class="link-menu" href="#section-projects">Projetos</a></li>
+          <li><a class="link-menu" href="#section-contact">Contato</a></li>
+          <li>
+            <img
+              class="btn-darkMode"
+              src="../../assets/moon.png"
+              alt="botão dark mode"
+              title="Ativar dark mode"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-resum container flex flex-col" id="section-resum">
+        <div class="box-resum-infos flex flex-col items-start">
+          <h1 class="box-resum-infos-name">Antonio Santos</h1>
+          <h2 class="box-resum-infos-title animated-border-topRight">
+            DESENVOLVEDOR FRONTEND
+          </h2>
+          <p class="box-resum-infos-description">
+            I implement user interface design and solve user problems with HTML,
+            CSS AND Javascript. I have 2 years of making products that solve
+            user problems and implementing responsive website.
+          </p>
+
+          <a
+            class="btn-radius-default-grey3 btn-contact-me"
+            href="#section-contact"
+          >
+            Contato
+          </a>
+        </div>
+        <div class="box-skills flex flex-col">
+          <h2 class="title-skills animated-border">HABILIDADES</h2>
+          <ul class="list-skills flex">
+            <li>
+              <img
+                src="../../assets/tecHTML.png"
+                alt="imagem simbolo HTML"
+                title="HTML"
+              />
+            </li>
+            <li>
+              <img
+                src="../../assets/tecCSS.png"
+                alt="imagem simbolo CSS"
+                title="CSS"
+              />
+            </li>
+            <li>
+              <img
+                src="../../assets/tecJS.png"
+                alt="imagem simbolo JS"
+                title="JavaScript"
+              />
+            </li>
+            <li>
+              <img
+                src="../../assets/tecREACT.png"
+                alt="imagem simbolo REACT"
+                title="React"
+              />
+            </li>
+            <li>
+              <img
+                src="../../assets/tecGIT.png"
+                alt="imagem simbolo GIT"
+                title="Git"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-about container flex flex-col" id="section-about">
+        <h2 class="animated-border about-title">SOBRE MIM</h2>
+
+        <div class="box-about flex flex-col">
+          <figure class="about-figure flex justify-center">
+            <img
+              src="../../assets/my-photo-perfil.png"
+              alt="Minha foto de perfil"
+            />
+          </figure>
+
+          <div class="box-about-text-description">
+            <p class="about-description">
+              I implement user interface design and solve user problems with
+              HTML, CSS AND Javascript. I have 2 years of making products that
+              solve user problems and implementing responsive website. I
+              implement user interface design and solve user problems with HTML,
+              CSS AND Javascript. I have 2 years of making products that solve
+              user problems and implementing responsive website.I implement user
+              interface design and solve user problems with HTML, CSS AND
+              Javascript. I have 2 years of making products that solve user
+              problems and implementing responsive website.
+            </p>
+
+            <a
+              class="btn-radius-default-grey3 btn-contact-me"
+              href="#section-contact"
+            >
+              Contato
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects container" id="section-projects">
+        <h2 class="projects-title animated-border">PROJETOS</h2>
+
+        <ul class="list-projects flex items-center justify-center"></ul>
+      </section>
+
+      <section
+        class="section-contact container flex flex-col items-center justify-between"
+        id="section-contact"
+      >
+        <h2 class="projects-contact-title animated-border">Contato</h2>
+        <button class="btn-radius-default-grey3" id="open-modal">
+          Entre em contato comigo
+        </button>
+
+        <ul class="contact-list-links flex items-center justify-center">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/antonio-santos-b934a479/"
+              target="_blank"
+              ><img
+                src="../../assets/linkedin.png"
+                alt="logo linkedin"
+                title="Acesse meu linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/AntonioSantosBJPE" target="_blank"
+              ><img
+                src="../../assets/github.png"
+                alt="logo github"
+                title="Acesse meu github"
+            /></a>
+          </li>
+          <li>
+            <a href="" target="_blank"
+              ><img
+                src="../../assets/mail.svg"
+                alt="logo github"
+                id="link-open-modal"
+                title="Entre em contato comigo por email"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <div class="modal-wrap">
+      <div class="modal-box flex flex-col justify-between">
+        <button class="btn-close-modal">X</button>
+        <h2>Entre em contato comigo!</h2>
+        <form
+          action="https://formsubmit.co/a0f59ec512bc79b32b96c2db06fe8237"
+          method="POST"
+          class="flex flex-col"
+        >
+          <label for="name">Nome</label>
+          <input
+            type="text"
+            name="name"
+            required
+            placeholder="Digite aqui seu nome..."
+          />
+          <label for="">Email </label>
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="Digite aqui o seu email..."
+          />
+          <label for="">Assunto </label>
+          <input
+            type="text"
+            name="subject"
+            required
+            placeholder="Digite aqui o assunto..."
+          />
+          <label for="message">Mensagem</label>
+          <textarea
+            name="message"
+            required
+            placeholder="Digite aqui sua mensagem..."
+          ></textarea>
+          <button type="submit" class="btn-radius-default-grey3">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
