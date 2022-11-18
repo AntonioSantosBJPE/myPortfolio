@@ -1,0 +1,57 @@
+.section-about {
+  margin-top: 50px;
+  width: 100%;
+  height: fit-content;
+  color: var(--color-grey-2);
+  gap: 40px;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: var(--font-title-2);
+  line-height: 28px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-figure {
+  width: 100%;
+  height: 229px;
+}
+.about-figure > img {
+  width: 100%;
+  max-width: 186px;
+  object-fit: cover;
+}
+
+.box-about-text-description {
+}
+.about-description {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: var(--font-text-1);
+  line-height: 28px;
+}
+
+@media (min-width: 768px) {
+  .box-about {
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-figure {
+    width: 40%;
+    height: 400px;
+  }
+  .about-figure > img {
+    max-width: 290px;
+  }
+  .box-about-text-description {
+    width: 55%;
+  }
+}
