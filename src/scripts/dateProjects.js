@@ -1,7 +1,23 @@
 export const infosProjects = [
   {
+    name: "Kenzie Hub",
+    tags: ["REACT", "API", "CSS"],
+    imgCapa: "../../assets/capaKenzieHub.png",
+    linkSite:
+      "https://react-entrega-kenzie-hub-complete-antonio-santos-bjpe.vercel.app/login",
+    linkGithub: "https://github.com/AntonioSantosBJPE/Kenzie-Hub",
+  },
+  {
+    name: "Hamburgueria Kenzie",
+    tags: ["REACT", "API", "CSS"],
+    imgCapa: "../../assets/capaBburguerkenzie.png",
+    linkSite:
+      "https://react-entrega-template-hamburgueria-da-kenzie-antoniosantosbjpe.vercel.app/",
+    linkGithub: "https://github.com/AntonioSantosBJPE/Hamburgueria-da-Kenzie",
+  },
+  {
     name: "Nu kenzie",
-    tags: ["REACT"],
+    tags: ["REACT", "CSS"],
     imgCapa: "../../assets/capaNuKenzie.png",
     linkSite: "https://nu-kenzie-beta-five.vercel.app/",
     linkGithub: "https://github.com/AntonioSantosBJPE/NuKenzie",
@@ -21,24 +37,24 @@ export const infosProjects = [
     linkGithub: "https://github.com/AntonioSantosBJPE/GitSearch",
   },
   {
-    name: "SearchCountries",
-    tags: ["HTML", "CSS", "JS", "API"],
-    imgCapa: "../../assets/capaSearchCountries.png",
-    linkSite: "https://antoniosantosbjpe.github.io/SearchCountries/",
-    linkGithub: "https://github.com/AntonioSantosBJPE/SearchCountries",
-  },
-  {
     name: "Calculadora",
     tags: ["HTML", "CSS", "JS"],
     imgCapa: "../../assets/capaCalculadora.png",
     linkSite: "https://antoniosantosbjpe.github.io/Calculadora/",
     linkGithub: "https://github.com/AntonioSantosBJPE/Calculadora",
   },
-  {
-    name: "Slide de testemunhos",
-    tags: ["HTML", "CSS", "JS"],
-    imgCapa: "../../assets/capaSlideTestemunhos.png",
-    linkSite: "https://antoniosantosbjpe.github.io/SlideTestemunhos/",
-    linkGithub: "https://github.com/AntonioSantosBJPE/SlideTestemunhos",
-  },
+  // {
+  //   name: "SearchCountries",
+  //   tags: ["HTML", "CSS", "JS", "API"],
+  //   imgCapa: "../../assets/capaSearchCountries.png",
+  //   linkSite: "https://antoniosantosbjpe.github.io/SearchCountries/",
+  //   linkGithub: "https://github.com/AntonioSantosBJPE/SearchCountries",
+  // },
+  // {
+  //   name: "Slide de testemunhos",
+  //   tags: ["HTML", "CSS", "JS"],
+  //   imgCapa: "../../assets/capaSlideTestemunhos.png",
+  //   linkSite: "https://antoniosantosbjpe.github.io/SlideTestemunhos/",
+  //   linkGithub: "https://github.com/AntonioSantosBJPE/SlideTestemunhos",
+  // },
 ];
