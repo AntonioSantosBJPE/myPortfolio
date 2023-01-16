@@ -24,7 +24,7 @@
 .about-figure > img {
   width: 100%;
   max-width: 186px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .box-about-text-description {
